@@ -22,3 +22,7 @@ Route::get('/1', function () {
 Route::get('/2', function () {
     return view('welcome2');
 });
+
+Route::get('/articulos', function () {
+    return view('welcomeArticulos');
+});
